@@ -1,0 +1,18 @@
+= Contract Api
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+:snippets: ../../../build/generated-snippets
+
+
+include::create-contract.adoc[]
+
+include::modify-contract.adoc[]
+
+include::get-contract.adoc[]
+
+include::calculator.adoc[]
+

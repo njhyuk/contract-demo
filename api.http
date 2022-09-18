@@ -1,0 +1,44 @@
+### 계약 생성
+
+POST /v1/contracts HTTP/1.1
+Content-Type: application/json
+Content-Length: 162
+Host: localhost:8080
+
+{
+  "productNo" : 2,
+  "contractTerm" : 11,
+  "startedAt" : "2022-03-08T00:00:00",
+  "guaranteeNos" : [ 3, 4 ]
+}
+
+### 계약정보 조회
+
+GET /v1/contracts/1 HTTP/1.1
+Host: localhost:8080
+
+### 계약정보 수정
+
+PUT /v1/contracts/1 HTTP/1.1
+Content-Type: application/json
+Content-Length: 162
+Host: localhost:8080
+
+{
+  "status" : 0,
+  "contractTerm" : 11,
+  "guaranteeNos" : [ 3 ]
+}
+
+### 예상 총 보험료 계산
+
+POST /v1/calculator HTTP/1.1
+Content-Type: application/json
+Content-Length: 162
+Host: localhost:8080
+
+{
+  "productNo" : 2,
+  "contractTerm" : 11,
+  "guaranteeNos" : [ 3, 4 ]
+}

@@ -1,0 +1,13 @@
+ifndef::snippet[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+
+=== 계약정보 수정
+
+- REQUEST
+include::{snippets}/contract/modify-contract/http-request.adoc[]
+
+- RESPONSE
+
+include::{snippets}/contract/modify-contract/response-body.adoc[]
+include::{snippets}/contract/modify-contract/response-fields.adoc[]

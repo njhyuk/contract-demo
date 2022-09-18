@@ -1,0 +1,13 @@
+ifndef::snippet[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+
+=== 계약 생성
+
+- REQUEST
+include::{snippets}/contract/create-contract/http-request.adoc[]
+
+- RESPONSE
+
+include::{snippets}/contract/create-contract/response-body.adoc[]
+include::{snippets}/contract/create-contract/response-fields.adoc[]

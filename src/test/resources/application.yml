@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:localtest
+    driverClassName: org.h2.Driver
+    username: sa
+    generate-unique-name: true
+  sql:
+    init:
+      schema-locations: classpath*:./data/schema.sql
+      data-locations: classpath*:./data/data.sql
+      platform: h2

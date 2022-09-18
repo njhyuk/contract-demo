@@ -1,0 +1,13 @@
+ifndef::snippet[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+
+=== 예상 총 보험료 계산
+
+- REQUEST
+include::{snippets}/calculator/http-request.adoc[]
+
+- RESPONSE
+
+include::{snippets}/calculator/response-body.adoc[]
+include::{snippets}/calculator/response-fields.adoc[]
